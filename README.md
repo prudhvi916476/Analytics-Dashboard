@@ -20,10 +20,10 @@ graph TD
     end
     
     subgraph Backend [Serverless APIs]
-        KPIsAPI[/api/kpis]
-        ChartsAPI[/api/charts]
-        FiltersAPI[/api/filters]
-        InsightsAPI[/api/insights]
+        KPIsAPI["/api/kpis"]
+        ChartsAPI["/api/charts"]
+        FiltersAPI["/api/filters"]
+        InsightsAPI["/api/insights"]
     end
     
     subgraph Data Layer
